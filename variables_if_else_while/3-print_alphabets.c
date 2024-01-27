@@ -8,7 +8,7 @@
 
 int main(void)
 {
-		char ch, uch, new;
+		char ch, uch;
 
 			for (ch = 'a'; ch <= 'z'; ch++)
 				{
@@ -20,8 +20,7 @@ int main(void)
 					}
 					if (uch == 'Z')
 					{
-					for (new = '\n';)
-					putchar(new);
+					putchar(\n);
 					}
 				}
 				return (0);
