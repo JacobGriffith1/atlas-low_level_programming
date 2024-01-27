@@ -17,6 +17,8 @@ int main(void)
 					{
 					for (uch = 'A'; uch <= 'Z'; uch++)
 					putchar(uch);
+					}
+					{
 					if (uch == 'Z')
 					putchar('\n');
 					}
