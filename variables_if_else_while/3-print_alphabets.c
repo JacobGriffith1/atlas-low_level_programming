@@ -8,7 +8,7 @@
 
 int main(void)
 {
-		char ch, uch;
+		char ch, uch, new;
 
 			for (ch = 'a'; ch <= 'z'; ch++)
 				{
@@ -19,9 +19,10 @@ int main(void)
 					putchar(uch);
 					}
 					if (uch == 'Z')
-						{
-						putchar('\n');
-						}
+					{
+					for (new = '\n')
+					putchar(new);
+					}
 				}
 				return (0);
 }
