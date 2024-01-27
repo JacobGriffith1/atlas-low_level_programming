@@ -17,10 +17,10 @@ int main(void)
 					{
 					for (uch = 'A'; uch <= 'Z'; uch++)
 					putchar(uch);
-					}
 						{
 						putchar('\n');
 						}
+					}
 				}
 				return (0);
 }
