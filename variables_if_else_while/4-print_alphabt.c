@@ -12,11 +12,11 @@ int main(void)
 		for (ch = 'a'; ch <= 'z'; ch++)
 		{
 			putchar(ch);
-			if (ch == d)
+			if (ch == 'd')
 			{
 				(ch += 2);
 			}
-			if (ch == p)
+			if (ch == 'p')
 			{
 				(ch += 2);
 			}
@@ -24,5 +24,5 @@ int main(void)
 					putchar('\n');
 				}
 		}
-		return (0)
+		return (0);
 }
