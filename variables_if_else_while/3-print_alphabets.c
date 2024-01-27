@@ -19,7 +19,6 @@ int main(void)
 					putchar(uch);
 					}
 					{
-					if (uch == 'Z')
 					putchar('\n');
 					}
 				}
