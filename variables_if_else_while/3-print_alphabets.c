@@ -20,7 +20,7 @@ int main(void)
 					}
 					{
 					if (uch == 'Z')
-					putchar("\n");
+					putchar('\n');
 					}
 				}
 				return (0);
