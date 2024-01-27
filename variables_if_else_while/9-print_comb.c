@@ -12,13 +12,13 @@ int main(void)
 
 	for (d = 48; d < 58; d++)
 	{
-		putchar(d)
+		putchar(d);
 		{
-			putchar(',')
+			putchar(',');
 			{
-				putchar(' ')
+				putchar(' ');
 			}
 		}
 	}
-	return (0)
+	return (0);
 }
