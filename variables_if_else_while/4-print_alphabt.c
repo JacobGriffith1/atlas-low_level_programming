@@ -13,16 +13,16 @@ int main(void)
 		{
 			putchar(ch);
 			if (ch == 'd')
-			{
-				(ch += 2);
-			}
-			if (ch == 'p')
-			{
-				(ch += 2);
-			}
 				{
-					putchar('\n');
+				(ch += 2);
+				}
+			if (ch == 'p')
+				{
+				(ch += 2);
 				}
 		}
+			{
+			putchar('\n');
+			}
 		return (0);
 }
