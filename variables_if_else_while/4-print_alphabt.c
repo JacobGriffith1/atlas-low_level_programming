@@ -14,11 +14,11 @@ int main(void)
 			putchar(ch);
 			if (ch == 'd')
 				{
-				(ch += 2);
+				(ch++);
 				}
 			if (ch == 'p')
 				{
-				(ch += 2);
+				(ch++);
 				}
 		}
 			{
