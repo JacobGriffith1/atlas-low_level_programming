@@ -16,17 +16,20 @@ int main(void)
 		{
 			if (d < 57)
 			{
-				putchar(',');
-				{
-					if (d < 57)
-					{
-						putchar(' ');
-					}
-				}
+			putchar(',');
+			{
+			if (d < 57)
+			{
+			putchar(' ');
+			{
+			if (d == 57)
+			{
+			putchar('\n')
 			}
-		}
-		{
-			putchar('\n');
+			}
+			}
+			}
+			}
 		}
 	}
 	return (0);
