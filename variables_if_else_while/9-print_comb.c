@@ -14,9 +14,15 @@ int main(void)
 	{
 		putchar(d);
 		{
-			putchar(',');
+			if (d < 57)
 			{
-				putchar(' ');
+				putchar(',');
+				{
+					if (d < 57)
+					{
+						putchar(' ');
+					}
+				}
 			}
 		}
 	}
