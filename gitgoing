@@ -1,0 +1,8 @@
+#!/bin/bash
+git config --global user.name JacobGriffith1 ; git config --global user.email jacobgriffith6339@gmail.com
+echo "Logged in. Welcome back, Jacob!"
+echo -e "\n"
+./check
+
+echo -e "\n" ; echo 'Good to go!'
+
