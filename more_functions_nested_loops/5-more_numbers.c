@@ -9,12 +9,16 @@
 
 void more_numbers(void)
 {
-	char i[] = "01234567891011121314";
-	int l;
+	int i, l;
 
 	for (l = 0; l <= 9; l++)
 	{
-		_putchar(char i);
-		_putchar('\n');
+		for (i = 0; i < 15; i++)
+		{
+			if (i >= 10)
+				_putchar(i / 10);
+			_putchar(i % 10);
+		}
+		_putchar('\n')
 	}
 }
