@@ -26,12 +26,12 @@ void print_diagonal(int n)
 	{
 		_putchar(92);
 		_putchar(10);
-		_putchar(32);
 		for (s = 0; s < p; s += p)
 		{
 			_putchar(32);
 		}
 		p++;
+		_putchar(32);
 	}
 	if (n <= 0)
 	{
