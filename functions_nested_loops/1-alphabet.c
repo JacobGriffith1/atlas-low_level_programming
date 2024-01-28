@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
- * main - prints alphabet in lc and a newline
+ * print_alphabet - prints alphabet in lc and a newline
  *
  * Return: Always 0 (Success)
  */
 
-int main(void)
+void print_alphabet(void)
 {
 	int i;
 
