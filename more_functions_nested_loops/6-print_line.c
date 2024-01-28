@@ -19,7 +19,7 @@ void print_line(int n)
 		if (i == n)
 			break;
 		{
-			_putchar('\n');
+			_putchar('\0');
 		}
 	}
 	if (n <= 0)
