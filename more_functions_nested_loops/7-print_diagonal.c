@@ -33,7 +33,7 @@ void print_diagonal(int n)
 		}
 		p++;
 	}
-	if (n == 0)
+	if (n <= 0)
 	{
 		_putchar(10);
 	}
