@@ -21,12 +21,12 @@ void times_table(void)
 			if (ab <= 9)
 			{
 				_putchar(32);
-				_putchar(ab);
+				_putchar(ab + 48);
 			}
 			else
 			{
-				_putchar(ab / 10);
-				_putchar(ab % 10);
+				_putchar((ab / 10) + 48);
+				_putchar((ab % 10) + 48);
 			}
 		}
 	}
