@@ -1,4 +1,6 @@
 #include "main.h"
+#include <stdilb.h>
+#include <stdio.h>
 
 /**
  * print_line - Draws a straight line made of underscores.
@@ -18,9 +20,9 @@ void print_line(int n)
 		i++;
 		if (i == n)
 		{
-			break;
-			_putchar('\0');
+			exit(0);
 		}
+		_putchar('\0');
 	}
 	if (n <= 0)
 	{
