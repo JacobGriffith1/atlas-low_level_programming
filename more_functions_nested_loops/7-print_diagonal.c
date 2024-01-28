@@ -29,10 +29,11 @@ void print_diagonal(int n)
 		for (l = 0; l < p; l++)
 		{
 			_putchar(10);
-			for (s = 0; s < p; s += p)
-			{
-				_putchar(32);
-			}
+		}
+		_putchar(10);
+		for (s = 0; s < p; s += p)
+		{
+			_putchar(32);
 		}
 		p++;
 		_putchar(32);
