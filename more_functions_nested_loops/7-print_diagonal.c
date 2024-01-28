@@ -23,7 +23,7 @@ void print_diagonal(int n)
 
 	p = 0;
 
-	while (p < n)
+	if (p < n)
 	{
 		_putchar(92);
 		for (l = 0; l < p; l++)
@@ -38,8 +38,7 @@ void print_diagonal(int n)
 		p++;
 		_putchar(32);
 	}
-	if (n <= 0)
-	{
-		_putchar(10);
-	}
+	else
+	_putchar(10);
+
 }
