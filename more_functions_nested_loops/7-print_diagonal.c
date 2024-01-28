@@ -23,7 +23,7 @@ void print_diagonal(int n)
 	{
 		_putchar(92);
 		_putchar(10);
-		for (s = 0; s < p; s++)
+		for (s = 0; s < n; s++)
 		{
 			_putchar(32);
 		}
