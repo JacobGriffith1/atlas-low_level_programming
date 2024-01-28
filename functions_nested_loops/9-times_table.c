@@ -10,10 +10,10 @@ void times_table(void)
 {
 	int a, b, ab;
 
-	for (a = 0, a <= 9, a++)
+	for (a = 0; a <= 9; a++)
 	{
 		_putchar(48);
-		for (b = 0, b <= 9, b++)
+		for (b = 0; b <= 9; b++)
 		{
 			ab = a * b;
 			_putchar(44);
@@ -30,5 +30,5 @@ void times_table(void)
 			}
 		}
 	}
-	_putchar(10)
+	_putchar(10);
 }
