@@ -33,5 +33,8 @@ void print_diagonal(int n)
 		}
 		p++;
 	}
-	_putchar(10);
+	if (n == 0)
+	{
+		_putchar(10);
+	}
 }
