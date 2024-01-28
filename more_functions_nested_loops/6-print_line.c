@@ -1,6 +1,6 @@
 #include "main.h"
-#include <stdilb.h>
-#include <stdio.h>
+#include<stdilb.h>
+#include<stdio.h>
 
 /**
  * print_line - Draws a straight line made of underscores.
