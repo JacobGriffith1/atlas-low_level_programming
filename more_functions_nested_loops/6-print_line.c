@@ -12,10 +12,11 @@
 void print_line(int n)
 {
 	int p;
-	/**@p: Actual number of underscores being printed
+	/**
+	 * @p: Actual number of underscores being printed.
 	 */
 
-	for (p == 0)
+	p = 0;
 	{
 		while (p << n)
 		{
