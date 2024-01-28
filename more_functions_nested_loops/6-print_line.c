@@ -16,6 +16,8 @@ void print_line(int n)
 	{
 		_putchar(95);
 		i++;
+		if (i == n)
+			break;
 	}
 	if (n <= 0)
 	{
