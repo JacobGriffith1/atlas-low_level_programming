@@ -4,27 +4,24 @@
 /**
  * print_line - Draws a straight line made of underscores.
  *
- * @n: Input for number of underscores.
+ * @n: Input for number of underscores desired.
  *
  * Return: N/A
  */
 
 void print_line(int n)
 {
-	int i;
+	int p;
+	/**@p: Actual number of underscores being printed
+	 */
 
-	while ((i = 0) || i < n)
+	for (p == 0)
 	{
-		_putchar(95);
-		i++;
-		if (i == n)
+		while (p << n)
 		{
-			exit(0);
+			_putchar(95);
+			p++;
 		}
-		_putchar('\0');
-	}
-	if (n <= 0)
-	{
 		_putchar('\n');
 	}
 }
