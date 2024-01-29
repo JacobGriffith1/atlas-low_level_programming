@@ -11,35 +11,22 @@
 
 void print_diagonal(int n)
 {
-	int p, s, l;
+	int i, j;
 	/**
-	 * @p: Number of backslashes actually printed.
-	 * @s: Number of spaces printed at the start of a line.
-	 * @l: Number of newlines to be printed.
 	 * @92: \ in ASCII.
 	 * @10: \n in ASCII.
 	 * @32: 'space' in ASCII.
 	 */
 
-	p = 0;
-
-	while (p < n)
+	for (i = 0; i < n; i++)
 	{
-		_putchar(92);
-		for (l = 0; l < p; l++)
+		for (j = 0; j < i; j++)
 		{
-			_putchar(10);
+			putchar(32);
 		}
-		_putchar(10);
-		for (s = 0; s < p; s += p)
-		{
-			_putchar(32);
-		}
-		p++;
-		_putchar(32);
+		putchar(92);
+		if (i < (n - 1))
+			putchar (10);
 	}
-	if (n <= 0 || n == p)
-	{
-	_putchar(10);
-	}
+	putchar(10);
 }
