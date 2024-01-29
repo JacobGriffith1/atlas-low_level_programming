@@ -25,8 +25,11 @@ void print_triangle(int size)
 		}
 		if (i < (size - 1))
 		{
-			_putchar('\n');
+			_putchar(10);
 		}
-		_putchar('\n');
+		_putchar(10);
 	}
+	if (size <= 0)
+	{
+		_putchar(10);
 }
