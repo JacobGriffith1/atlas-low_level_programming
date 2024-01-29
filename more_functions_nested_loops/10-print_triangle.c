@@ -29,6 +29,8 @@ void print_triangle(int size)
 		}
 		_putchar(10);
 	}
-	if (h < (size - 1)
-	_putchar(10);
+	if (h < (size - 1))
+	{
+		_putchar(10);
+	}
 }
