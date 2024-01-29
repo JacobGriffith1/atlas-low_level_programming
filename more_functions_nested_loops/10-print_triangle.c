@@ -28,6 +28,9 @@ void print_triangle(int size)
 			_putchar(10);
 		}
 	}
+	{
+		_putchar(10);
+	}
 	if (0 > (size - 1))
 	{
 		_putchar(10);
