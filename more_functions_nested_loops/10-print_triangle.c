@@ -31,7 +31,7 @@ void print_triangle(int size)
 		}
 		_putchar(10);
 	}
-	if (k < (size - 1))
+	if (k > (size - 1))
 	{
 		_putchar(10);
 	}
