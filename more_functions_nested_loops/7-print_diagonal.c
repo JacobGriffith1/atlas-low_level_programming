@@ -38,7 +38,8 @@ void print_diagonal(int n)
 		p++;
 		_putchar(32);
 	}
-	else
+	if (n <= 0 || n == p)
+	{
 	_putchar(10);
-
+	}
 }
