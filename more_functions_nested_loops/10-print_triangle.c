@@ -24,15 +24,13 @@ void print_triangle(int size)
 			{
 				_putchar(35);
 			}
-			if (i < (size - 1))
-			{
-				_putchar(10);
-			}
 		}
-	{
-		_putchar(10);
+		if (i < (size - 1))
+		{
+			_putchar(10);
+		}
 	}
-	}
+	_putchar(10);
 	if (0 > (size - 1))
 	{
 		_putchar(10);
