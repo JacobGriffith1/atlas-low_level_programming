@@ -5,10 +5,16 @@
  *
  * @s: Input string; will be pointed at.
  *
- * Return: N/A
+ * Return: String length.
  */
 
 int _strlen(char *s)
 {
-	_strlen(*s);
+	int l = 0;
+
+	while (*(s + l) != '\0')
+	{
+		l++;
+	}
+	return (l);
 }
