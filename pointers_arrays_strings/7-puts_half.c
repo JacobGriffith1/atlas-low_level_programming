@@ -21,13 +21,13 @@ void puts_half(char *str)
 		l++;
 	}
 
-	if (l % 2 == 0)
+	if (l % 2 == 1)
 	{
 		h = l / 2;
 	}
 	else
 	{
-		h = (l + 1) / 2;
+		h = (l - 1) / 2;
 	}
 
 	for (h++; h < l; h++)
