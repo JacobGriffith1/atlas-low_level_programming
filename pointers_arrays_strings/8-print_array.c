@@ -16,9 +16,9 @@ void print_array(int *a, int n)
 	{
 		printf("%d", *(a, n));
 
-		if (i < n);
+		if (i < n)
 		{
-			printf(", ")
+			printf(", ");
 		}
 	}
 	_putchar(10);
