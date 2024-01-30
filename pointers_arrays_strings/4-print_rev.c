@@ -14,7 +14,7 @@ void print_rev(char *s)
 
 	while (l >= 0)
 	{
-		if (l == '\0')
+		if (s[l] == '\0')
 		{
 			break;
 		}
