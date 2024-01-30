@@ -1,14 +1,14 @@
 #include "main.h"
 
 /**
- * _puts2 - Prints ever other character in a string, followed by a newline.
+ * puts2 - Prints ever other character in a string, followed by a newline.
  *
  * @str: String input.
  *
  * Return: N/A
  */
 
-void _puts2(char *str)
+void puts2(char *str)
 {
 	int l = 0;
 
