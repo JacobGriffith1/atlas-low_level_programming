@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
  * print_array - Prints n elements of an array of integers, followed by \n.
@@ -11,6 +12,6 @@
 
 void print_array(int *a, int n)
 {
-	_printf(a, n);
+	printf(a, n);
 	_putchar(10);
 }
