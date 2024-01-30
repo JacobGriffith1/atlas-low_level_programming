@@ -14,8 +14,10 @@ void puts2(char *str)
 
 	while (*(str + l) != 0)
 	{
+		if (str % 2 == 0)
+		{
 		_putchar(str[l]);
-		l++;
+		}
 		l++;
 	}
 	_putchar(10);
