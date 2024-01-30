@@ -12,6 +12,6 @@
 
 void print_array(int *a, int n)
 {
-	printf(a, n);
+	printf(*a, n);
 	_putchar(10);
 }
