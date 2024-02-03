@@ -1,11 +1,17 @@
 #!/usr/bin/env bash
 git config --global user.name JacobGriffith1 ; git config --global user.email jacobgriffith6339@gmail.com
-echo "Welcome back, Jacob!"
 echo -e "\n"
+echo "Welcome back, Jacob!"
 
-./check
-./aliaslist
-chmod +x ~/.bash_aliases
-. ~/.bash_aliases >> stdout
+setup/./check
+echo -e "\n" ; echo 'Ready to shellcheck!'
 
-echo -e "\n" ; echo 'Good to go!'
+setup/./bashaliasappend
+echo -e "\n" ; echo "'~/.bash_aliases' appended"
+
+cd ~
+rmdir empty_directory
+rm not_here ready_to_be_removed old_school school
+echo -e "\n" ; echo 'Root directory cleaned up!'
+
+echo -e "\n" ; echo -e "Please type 'source alias.sh' or 'source ~/.bash_aliases' to finish setup."

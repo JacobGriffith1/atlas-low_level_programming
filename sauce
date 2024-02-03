@@ -1,5 +1,0 @@
-#!/bin/bash
-
-do
-	. ~/.bash_aliases
-done
