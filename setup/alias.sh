@@ -1,0 +1,8 @@
+alias ga="git add ."
+alias com="git commit -m"
+alias push="git push"
+alias t="touch"
+alias x="chmod +x"
+alias b="betty"
+alias sc="shellcheck"
+alias llp="cd ~/atlas-low_level_programming"
