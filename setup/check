@@ -3,5 +3,6 @@
 
 apt-get install shellcheck
 
+echo -e "\n"
 echo "Ready to shellcheck!"
-
+echo -e "\n"

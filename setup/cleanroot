@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+
+cd ~
+
+if [ -f ~/empty_directory ]; then
+	rmdir empty_directory
+	rm not_here ready_to_be_removed old_school school
+	echo 'Root directory cleaned up!'
+else
+	echo 'Root directory already clean!'
+fi
+echo -e "\n"

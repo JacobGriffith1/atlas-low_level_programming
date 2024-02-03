@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+
 echo -e alias ga=\"git add .\" > ~/.bash_aliases
 echo -e alias com=\"git commit -m\" >> ~/.bash_aliases
 echo -e alias push=\"git push\" >> ~/.bash_aliases
@@ -7,4 +9,5 @@ echo -e alias b=\"betty\" >> ~/.bash_aliases
 echo -e alias sc=\"shellcheck\" >> ~/.bash_aliases
 echo -e alias llp=\"cd ~/atlas-low_level_programming/\" >> ~/.bash_aliases
 
-echo "Aliases added!"
+echo "'~/.bash_aliases' appended"
+echo -e "\n"

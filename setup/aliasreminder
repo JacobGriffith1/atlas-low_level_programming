@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+echo -e "Please type 'source alias.sh' or 'source ~/.bash_aliases' to finish setup."
+echo -e "\n"
