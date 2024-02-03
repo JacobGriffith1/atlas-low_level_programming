@@ -6,7 +6,6 @@ echo -e "\n"
 ./check
 ./aliaslist
 chmod +x ~/.bash_aliases
-. ~/.bash_aliases
+. ~/.bash_aliases >> stdout
 
 echo -e "\n" ; echo 'Good to go!'
-
