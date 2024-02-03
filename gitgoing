@@ -1,8 +1,12 @@
-#!/bin/bash
+#!/usr/bin/env bash
 git config --global user.name JacobGriffith1 ; git config --global user.email jacobgriffith6339@gmail.com
-echo "Logged in. Welcome back, Jacob!"
+echo "Welcome back, Jacob!"
 echo -e "\n"
+
 ./check
+./aliaslist
+chmod +x ~/.bash_aliases
+. ~/.bash_aliases
 
 echo -e "\n" ; echo 'Good to go!'
 
