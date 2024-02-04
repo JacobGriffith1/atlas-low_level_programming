@@ -7,7 +7,7 @@
  * Return: s, but with the first letter of every word capitalized
  */
 
-char *cap_string(char *s);
+char *cap_string(char *s)
 {
 	int i = 0, j;
 	int sep[] = {9, 10, 32, 33, 34, 40, 41, 44, 46, 59, 63, 123, 125};
