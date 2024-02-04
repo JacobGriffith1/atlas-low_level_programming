@@ -10,7 +10,7 @@
  * Return: N/A
  */
 
-void print_array(int *a, int n)
+void reverse_array(int *a, int n)
 {
 	int i, j, rev;
 
