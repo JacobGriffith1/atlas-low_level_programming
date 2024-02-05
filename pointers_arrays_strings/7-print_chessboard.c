@@ -3,7 +3,7 @@
 
 /**
  * print_chessboard - Prints an ASCII chessboard
- * @a - Input pointer
+ * @a: Input pointer
  * Return: N/A
  */
 
