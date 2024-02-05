@@ -4,6 +4,8 @@ setup/./gitconfig
 
 setup/./check
 
+setup/./bettyinst
+
 setup/./bashaliasappend
 
 setup/./cleanroot

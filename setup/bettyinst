@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+
+cd ~
+
+if  test -d Betty; then
+	cd Betty;
+	./install.sh;
+	echo -e '\nReady to check Betty compliance!';
+else
+	echo 'Directory "Betty" not found.';
+fi
+echo -e "\n"
