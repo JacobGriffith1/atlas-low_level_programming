@@ -8,6 +8,7 @@ echo -e alias x=\"chmod +x\" >> ~/.bash_aliases
 echo -e alias b=\"betty\" >> ~/.bash_aliases
 echo -e alias sc=\"shellcheck\" >> ~/.bash_aliases
 echo -e alias llp=\"cd ~/atlas-low_level_programming/\" >> ~/.bash_aliases
+echo -e alias rec=\"cd ~/atlas-low_level_programming/recursion/\" >> ~/.bash_aliases
 
 echo "'~/.bash_aliases' appended"
 echo -e "\n"
