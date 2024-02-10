@@ -8,7 +8,7 @@
  * Return: sqrt or -1
  */
 
-int find_sqrt(int n, int c)
+int find_sqrt(int n, int i)
 {
 	if (i % (n / i) == 0)
 	{
