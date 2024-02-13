@@ -8,7 +8,7 @@
  * Return: 0 - Success, 1 - Failure
  */
 
-int main(int argc, *argv[])
+int main(int argc, char *argv[])
 {
 	if (argc != 3)
 	{
