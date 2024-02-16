@@ -26,10 +26,6 @@ char *create_array(unsigned int size, char c)
 	for (i = 0; (i < size) && (i != '\0'); i++)
 	{
 		ptr[i] = c;
-		if (ptr[i] == '\0')
-		{
-			break;
-		}
 	}
 	return (ptr);
 }
