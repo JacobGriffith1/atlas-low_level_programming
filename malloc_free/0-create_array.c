@@ -29,7 +29,6 @@ char *create_array(unsigned int size, char c)
 		if (ptr[i] == '\0')
 		{
 			return ('\0');
-			break;
 		}
 	}
 	return (ptr);
