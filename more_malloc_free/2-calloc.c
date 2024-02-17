@@ -6,7 +6,7 @@
  * _calloc - ALLOCATES memory for an arry using [malloc].
  * @nmemb: Number of ELEMENTS
  * @size: Size of BYTES in each ELEMENT of [nmemb].
- * Return: POINTER to MEMORY, NULL if ((nmemb||size) == 0) or [malloc] fails.
+ * Return: POINTER to MEMORY, NULL if nmemb or size is 0 or [malloc] fails.
  */
 
 void *_calloc(unsigned int nmemb, unsigned int size)
@@ -14,7 +14,7 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 	char *ptr;
 	unsigned int i;
 
-	if ((nmemb||size) == 0)
+	if (nmemb == 0 || size == 0)
 		return (NULL);
 
 	ptr = malloc(nmemb * size);
