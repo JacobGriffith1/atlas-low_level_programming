@@ -12,6 +12,7 @@ echo -e alias rec=\"cd ~/atlas-low_level_programming/recursion/\" >> ~/.bash_ali
 echo -e alias arg=\"cd ~/atlas-low_level_programming/argc_argv/\" >> ~/.bash_aliases
 echo -e alias mal=\"cd ~/atlas-low_level_programming/malloc_free/\" >> ~/.bash_aliases
 echo -e alias mml=\"cd ~/atlas-low_level_programming/more_malloc_free/\" >> ~/.bash_aliases
+echo -e alias pre=\"cd ~/atlas-low_level_programming/preprocessor/\" >> ~/.bash_aliases
 
 echo "'~/.bash_aliases' appended"
 echo -e "\n"
