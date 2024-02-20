@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 /**
- * _calloc - ALLOCATES memory for an arry using [malloc].
+ * _calloc - ALLOCATES memory for an array using [malloc].
  * @nmemb: Number of ELEMENTS
  * @size: Size of BYTES in each ELEMENT of [nmemb].
  * Return: POINTER to MEMORY, NULL if nmemb or size is 0 or [malloc] fails.
