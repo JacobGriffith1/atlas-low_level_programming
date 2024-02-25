@@ -15,6 +15,7 @@ echo -e alias mal=\"cd ~/atlas-low_level_programming/malloc_free/\" >> ~/.bash_a
 echo -e alias mml=\"cd ~/atlas-low_level_programming/more_malloc_free/\" >> ~/.bash_aliases
 echo -e alias pre=\"cd ~/atlas-low_level_programming/preprocessor/\" >> ~/.bash_aliases
 echo -e alias tpd=\"cd ~/atlas-low_level_programming/structures_typedef/\" >> ~/.bash_aliases
+echo -e alias fnp=\"cd ~/atlas-low_level_programming/function_pointers/\" >> ~/.bash_aliases
 
 echo "'~/.bash_aliases' appended"
 echo -e "\n"
