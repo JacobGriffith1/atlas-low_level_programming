@@ -1,4 +1,4 @@
-#include "calc.h"
+#include "3-calc.h"
 
 /**
  * main - The culmination of my time; math that I'd rather have done on paper.
