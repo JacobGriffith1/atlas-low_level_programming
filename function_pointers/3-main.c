@@ -26,7 +26,7 @@ int main(int argc, char *argv[])
 
 	operation = get_op_func(argv[2]);
 
-	if (operation == "/" || operation == "%" && a == 0 || b == 0)
+	if (operation == '/' || operation == '%' && a == '0' || b == '0')
 	{
 		printf("Error\n");
 		exit(100);
