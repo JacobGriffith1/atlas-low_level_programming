@@ -12,7 +12,7 @@ int main(int argc, char *argv[])
 	int a, b;
 	int (*operation)(int, int);
 
-	if (argc != 4)
+	if (argc != 4 || operation == NULL)
 	{
 		printf("Error\n");
 		exit(98);
@@ -26,7 +26,7 @@ int main(int argc, char *argv[])
 
 	operation = get_op_func(argv[2]);
 
-	if (operation == NULL)
+	if ((operation == / || operation == %) && (a == 0 || b == 0))
 	{
 		printf("Error\n");
 		exit(100);
