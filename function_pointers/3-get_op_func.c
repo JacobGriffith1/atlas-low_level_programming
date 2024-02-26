@@ -1,7 +1,7 @@
 #include "3-calc.h"
 
 /**
- * get_op_function - Selects which function to perform.
+ * get_op_func - Selects which function to perform.
  * @s: string to check for matching code.
  * Return: Operation to perform or NULL.
  */
