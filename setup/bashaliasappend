@@ -8,7 +8,7 @@ echo -e alias x=\"chmod +x\" >> ~/.bash_aliases
 echo -e alias b=\"betty\" >> ~/.bash_aliases
 echo -e alias sc=\"shellcheck\" >> ~/.bash_aliases
 echo -e alias llp=\"cd ~/atlas-low_level_programming/\" >> ~/.bash_aliases
-echo -e alias set=\"cd ~/atlas-low_level_programming/setup\" >> ~/.bash_aliases
+echo -e alias setup=\"cd ~/atlas-low_level_programming/setup\" >> ~/.bash_aliases
 echo -e alias rec=\"cd ~/atlas-low_level_programming/recursion/\" >> ~/.bash_aliases
 echo -e alias arg=\"cd ~/atlas-low_level_programming/argc_argv/\" >> ~/.bash_aliases
 echo -e alias mal=\"cd ~/atlas-low_level_programming/malloc_free/\" >> ~/.bash_aliases
@@ -17,6 +17,7 @@ echo -e alias pre=\"cd ~/atlas-low_level_programming/preprocessor/\" >> ~/.bash_
 echo -e alias tpd=\"cd ~/atlas-low_level_programming/structures_typedef/\" >> ~/.bash_aliases
 echo -e alias fnp=\"cd ~/atlas-low_level_programming/function_pointers/\" >> ~/.bash_aliases
 echo -e alias vdc=\"cd ~/atlas-low_level_programming/variadic_functions/\" >> ~/.bash_aliases
+echo -e alias sll=\"cd ~/atlas-low_level_programming/singly_linked_lists/\" >> ~/.bash_aliases
 echo -e alias prf=\"cd ~/atlas-printf/\" >> ~/.bash_aliases
 
 echo "'~/.bash_aliases' appended"
