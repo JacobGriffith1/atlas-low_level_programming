@@ -5,6 +5,19 @@
 #include <stdlib.h>
 #include <stdarg.h>
 
+/**
+ * struct listint_t - Singly linked list
+ * @n: An integer.
+ * @next: Points to next node
+ * Description: Singly linked node structure for Atlas..
+ */
+
+typedef struct listint_t
+{
+	int n;
+	struct listint_t *next;
+} listint_t;
+
 size_t print_listint(const listint_t *h);
 size_t listint_len(const listint_t *h);
 listint_t *add_nodeint(listint_t **head, const int n);
