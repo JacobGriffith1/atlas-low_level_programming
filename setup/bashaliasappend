@@ -19,6 +19,7 @@ echo -e alias tpd=\"cd ~/atlas-low_level_programming/structures_typedef/\" >> ~/
 echo -e alias fnp=\"cd ~/atlas-low_level_programming/function_pointers/\" >> ~/.bash_aliases
 echo -e alias vdc=\"cd ~/atlas-low_level_programming/variadic_functions/\" >> ~/.bash_aliases
 echo -e alias sll=\"cd ~/atlas-low_level_programming/singly_linked_lists/\" >> ~/.bash_aliases
+echo -e alias msl=\"cd ~/atlas-low_level_programming/more_singly_linked_lists/\" >> ~/.bash_aliases
 echo -e alias prf=\"cd ~/atlas-printf/\" >> ~/.bash_aliases
 
 echo "'~/.bash_aliases' appended"
