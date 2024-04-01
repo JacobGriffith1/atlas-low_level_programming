@@ -3,6 +3,7 @@
 
 /**
  * lsh_read_line - Reads the user input.
+ * Return: Buffer
  */
 
 char *lsh_read_line(void)
@@ -26,7 +27,7 @@ char *lsh_read_line(void)
 		/* If we hit EOF, replace it with a null char and return */
 		if (c == EOF || c == '\n')
 		{
-			buffer [position] = '\0';
+			buffer[position] = '\0';
 			return (buffer);
 		}
 		else

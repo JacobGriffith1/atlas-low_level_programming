@@ -12,7 +12,7 @@
 char **lsh_split_line(char *line)
 {
 	int bufsize = LSH_TOK_BUFSIZE, position = 0;
-	char **tokens = malloc(bufsize * sizeof(char*));
+	char **tokens = malloc(bufsize * sizeof(char *));
 	char *token;
 
 	if (!tokens)
@@ -30,7 +30,7 @@ char **lsh_split_line(char *line)
 		if (position >= bufsize)
 		{
 			bufsize += LSH_TOK_BUFSIZE;
-			tokens = realloc(tokens, bufsize * sizeof(char*));
+			tokens = realloc(tokens, bufsize * sizeof(char *));
 			if (!tokens)
 			{
 				fprintf(stderr, "lsh: allocation error\n");

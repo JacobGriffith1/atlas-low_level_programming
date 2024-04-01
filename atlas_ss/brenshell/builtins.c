@@ -24,6 +24,7 @@ int lsh_num_builtins(void)
 
 /**
  * lsh_cd - Builtin function to change directory within the shell.
+ * @args: Arguments
  * Return: 1
  */
 
@@ -34,19 +35,20 @@ int lsh_cd(char **args)
 	else
 		if (chdir(args[1]) != 0)
 			perror("lsh");
-	return 1;
+	return (1);
 }
 
 /**
  * lsh_help - Lists the names of builtin functions. A function to help
  * a prospective user of the shell.
  * @args: Arguments
- * Return 0
+ * Return: 1
  */
 
 int lsh_help(char **args)
 {
 	int i;
+
 	printf("Shell in the style of Stephan Brennan\n");
 	printf("Type program names and arguments, and hit enter.\n");
 	printf("The following are built in:\n");
@@ -60,10 +62,11 @@ int lsh_help(char **args)
 
 /**
  * lsh_exit - Exits the shell
+ * @args: Arguments
  * Return: 0
  */
 
 int lsh_exit(char **args)
 {
-	return 0;
+	return (0);
 }
