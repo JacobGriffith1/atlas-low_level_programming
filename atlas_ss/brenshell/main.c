@@ -12,7 +12,7 @@ int main(int argc, char **argv)
 	/* Load config files, if any */
 
 	/* Run command loop. */
-	lsh_loop();
+	void lsh_loop(void);
 
 	/* Perform any shutdown/cleanup */
 	return (EXIT_SUCCESS);

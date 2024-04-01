@@ -21,7 +21,7 @@ char **lsh_split_line(char *line)
 		exit(EXIT_FAILURE);
 	}
 
-	token = strtok(line LSH_TOK_DELIM);
+	token = strtok(line, LSH_TOK_DELIM);
 	while (token != NULL)
 	{
 		tokens[position] = token;
