@@ -28,7 +28,7 @@ echo -e alias dll=\"cd ~/atlas-low_level_programming/doubly_linked_lists/\" >> ~
 echo -e alias hsh=\"cd ~/atlas-low_level_programming/hash_tables/\" >> ~/.bash_aliases
 
 echo -e alias prf=\"cd ~/atlas-printf/\" >> ~/.bash_aliases
-echo -e alias prf=\"cd ~/atlas-simple_shell/\" >> ~/.bash_aliases
+echo -e alias shell=\"cd ~/atlas-simple_shell/\" >> ~/.bash_aliases
 
 echo "'~/.bash_aliases' appended"
 echo -e "\n"
