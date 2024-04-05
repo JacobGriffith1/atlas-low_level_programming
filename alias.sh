@@ -9,6 +9,7 @@ alias compile="gcc -Wall -pedantic -Werror -Wextra -std=gnu89"
 alias montycomp="gcc -Wall -Werror -Wextra -pedantic *.c -o monty"
 alias sscompile="gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh"
 alias teeset="tee *-*"
+
 alias llp="cd ~/atlas-low_level_programming"
 alias setup="cd ~/atlas-low_level_programming/setup"
 alias rec="cd ~/atlas-low_level_programming/recursion"
@@ -26,5 +27,9 @@ alias bit="cd ~/atlas-low_level_programming/bit_manipulation"
 alias fio="cd ~/atlas-low_level_programming/file_io"
 alias dll="cd ~/atlas-low_level_programming/doubly_linked_lists"
 alias hsh="cd ~/atlas-low_level_programming/hash_tables"
+
 alias prf="cd ~/atlas-printf"
+
 alias shell="cd ~/atlas-simple_shell"
+
+alias mty="cd ~/atlas-monty"
