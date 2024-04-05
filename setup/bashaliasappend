@@ -9,6 +9,7 @@ echo -e alias b=\"betty\" >> ~/.bash_aliases
 echo -e alias sc=\"shellcheck\" >> ~/.bash_aliases
 echo -e alias teeset=\"tee *-*\" >> ~/.bash_aliases
 echo -e alias compile=\"gcc -Wall -pedantic -Werror -Wextra -std=gnu89\" >> ~/.bash_aliases
+echo -e alias montycomp=\"gcc -Wall -Werror -Wextra -pedantic *.c -o monty\" >> ~/.bash_aliases
 echo -e alias sscompile=\"gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh\" >> ~/.bash_aliases
 echo -e alias llp=\"cd ~/atlas-low_level_programming/\" >> ~/.bash_aliases
 echo -e alias setup=\"cd ~/atlas-low_level_programming/setup\" >> ~/.bash_aliases
