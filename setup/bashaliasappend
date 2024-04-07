@@ -35,5 +35,5 @@ echo -e alias shell=\"cd ~/atlas-simple_shell/\" >> ~/.bash_aliases
 
 echo -e alias mty=\"cd ~/atlas-monty/\" >> ~/.bash_aliases
 
-echo "'~/.bash_aliases' appended"
+echo "'~/.bash_aliases' appended!"
 echo -e "\n"

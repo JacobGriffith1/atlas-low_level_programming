@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+clear
+
 setup/./gitconfig
 
 setup/./check
