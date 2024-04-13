@@ -33,3 +33,5 @@ alias prf="cd ~/atlas-printf"
 alias shell="cd ~/atlas-simple_shell"
 
 alias mty="cd ~/atlas-monty"
+
+alias srt="cd ~/atlas-sorting_algorithms"
