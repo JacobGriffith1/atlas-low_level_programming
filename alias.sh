@@ -35,3 +35,5 @@ alias shell="cd ~/atlas-simple_shell"
 alias mty="cd ~/atlas-monty"
 
 alias srt="cd ~/atlas-sorting_algorithms"
+
+alias src="cd ~/atlas-searching_algorithms"

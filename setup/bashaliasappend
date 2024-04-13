@@ -37,5 +37,7 @@ echo -e alias mty=\"cd ~/atlas-monty/\" >> ~/.bash_aliases
 
 echo -e alias srt=\"cd ~/atlas-sorting_algorithms/\" >> ~/.bash_aliases
 
+echo -e alias src=\"cd ~/atlas-searching_algorithms/\" >> ~/.bash_aliases
+
 echo "'~/.bash_aliases' appended!"
 echo -e "\n"
