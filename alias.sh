@@ -28,6 +28,7 @@ alias bit="cd ~/atlas-low_level_programming/bit_manipulation"
 alias fio="cd ~/atlas-low_level_programming/file_io"
 alias dll="cd ~/atlas-low_level_programming/doubly_linked_lists"
 alias hsh="cd ~/atlas-low_level_programming/hash_tables"
+alias src="cd ~/atlas-low_level_programming/search_algorithms"
 
 alias prf="cd ~/atlas-printf"
 
@@ -36,5 +37,3 @@ alias shell="cd ~/atlas-simple_shell"
 alias mty="cd ~/atlas-monty"
 
 alias srt="cd ~/atlas-sorting_algorithms"
-
-alias src="cd ~/atlas-search_algorithms"
