@@ -36,4 +36,4 @@ alias mty="cd ~/atlas-monty"
 
 alias srt="cd ~/atlas-sorting_algorithms"
 
-alias src="cd ~/atlas-searching_algorithms"
+alias src="cd ~/atlas-search_algorithms"
