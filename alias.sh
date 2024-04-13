@@ -9,6 +9,7 @@ alias compile="gcc -Wall -pedantic -Werror -Wextra -std=gnu89"
 alias montycomp="gcc -Wall -Werror -Wextra -pedantic *.c -o monty"
 alias sscompile="gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh"
 alias teeset="tee *-*"
+alias teec="tee *.c"
 
 alias llp="cd ~/atlas-low_level_programming"
 alias setup="cd ~/atlas-low_level_programming/setup"
