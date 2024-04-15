@@ -38,6 +38,8 @@ int binary_search(int *array, size_t size, int value)
 			i = size;
 		}
 		else
+		{
+			printf(": %d", m);
 			return (m);
 	}
 	return (-1);
