@@ -24,7 +24,7 @@ int binary_search(int *array, size_t size, int value)
 		m = ((l + r) / 2);
 
 		for (i = 0; i < size; i++)
-			printf("%s %d", (i == 0) ? ":" : ",", array[i]);
+			printf("%s %d", (i == 0) ? ":" : ",", array[m]);
 		printf("\n");
 
 		if (array[m] < value)
