@@ -39,3 +39,5 @@ alias mty="cd ~/atlas-monty"
 alias srt="cd ~/atlas-sorting_algorithms"
 
 alias tre="cd ~/atlas-binary_trees"
+
+alias zro="cd ~/atlas-zero_day"

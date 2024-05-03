@@ -41,5 +41,7 @@ echo -e alias srt=\"cd ~/atlas-sorting_algorithms/\" >> ~/.bash_aliases
 
 echo -e alias tre=\"cd ~/atlas-binary_trees/\" >> ~/.bash_aliases
 
+echo -e alias zro=\"cd ~/atlas-zero_day/\" >> ~/.bash_aliases
+
 echo "'~/.bash_aliases' appended!"
 echo -e "\n"
