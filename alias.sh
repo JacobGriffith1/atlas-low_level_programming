@@ -10,6 +10,7 @@ alias montycomp="gcc -Wall -Werror -Wextra -pedantic *.c -o monty"
 alias sscompile="gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh"
 alias teeset="tee *-*"
 alias teec="tee *.c"
+alias teepy="tee *.py"
 
 alias llp="cd ~/atlas-low_level_programming"
 alias setup="cd ~/atlas-low_level_programming/setup"
@@ -29,6 +30,8 @@ alias fio="cd ~/atlas-low_level_programming/file_io"
 alias dll="cd ~/atlas-low_level_programming/doubly_linked_lists"
 alias hsh="cd ~/atlas-low_level_programming/hash_tables"
 alias src="cd ~/atlas-low_level_programming/search_algorithms"
+
+alias hlp="cd ~/atlas-low_level_programming"
 
 alias prf="cd ~/atlas-printf"
 

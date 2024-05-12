@@ -9,6 +9,7 @@ echo -e alias b=\"betty\" >> ~/.bash_aliases
 echo -e alias sc=\"shellcheck\" >> ~/.bash_aliases
 echo -e alias teeset=\"tee *-*\" >> ~/.bash_aliases
 echo -e alias teec=\"tee *.c\" >> ~/.bash_aliases
+echo -e alias teep=\"tee *.py\" >> ~/.bash_aliases
 echo -e alias compile=\"gcc -Wall -pedantic -Werror -Wextra -std=gnu89\" >> ~/.bash_aliases
 echo -e alias montycomp=\"gcc -Wall -Werror -Wextra -pedantic *.c -o monty\" >> ~/.bash_aliases
 echo -e alias sscompile=\"gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh\" >> ~/.bash_aliases
@@ -30,6 +31,8 @@ echo -e alias fio=\"cd ~/atlas-low_level_programming/file_io/\" >> ~/.bash_alias
 echo -e alias dll=\"cd ~/atlas-low_level_programming/doubly_linked_lists/\" >> ~/.bash_aliases
 echo -e alias hsh=\"cd ~/atlas-low_level_programming/hash_tables/\" >> ~/.bash_aliases
 echo -e alias src=\"cd ~/atlas-low_level_programming/search_algorithms/\" >> ~/.bash_aliases
+
+echo -e alias hlp=\"cd ~/atlas-higher_level_programming/\" >> ~/.bash_aliases
 
 echo -e alias prf=\"cd ~/atlas-printf/\" >> ~/.bash_aliases
 
