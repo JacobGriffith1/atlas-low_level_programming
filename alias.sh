@@ -31,7 +31,7 @@ alias dll="cd ~/atlas-low_level_programming/doubly_linked_lists"
 alias hsh="cd ~/atlas-low_level_programming/hash_tables"
 alias src="cd ~/atlas-low_level_programming/search_algorithms"
 
-alias hlp="cd ~/atlas-low_level_programming"
+alias hlp="cd ~/atlas-higher_level_programming"
 
 alias prf="cd ~/atlas-printf"
 
