@@ -3,13 +3,16 @@
 echo -e alias ga=\"git add .\" > ~/.bash_aliases
 echo -e alias com=\"git commit -m\" >> ~/.bash_aliases
 echo -e alias push=\"git push\" >> ~/.bash_aliases
+echo -e alias pull=\"git pull\" >> ~/.bash_aliases
 echo -e alias t=\"touch\" >> ~/.bash_aliases
 echo -e alias x=\"chmod +x\" >> ~/.bash_aliases
+echo -e alias xc=\"chmod +x *.c\" >> ~/.bash_aliases
+echo -e alias xpy=\"chmod +x *.py\" >> ~/.bash_aliases
 echo -e alias b=\"betty\" >> ~/.bash_aliases
 echo -e alias sc=\"shellcheck\" >> ~/.bash_aliases
 echo -e alias teeset=\"tee *-*\" >> ~/.bash_aliases
 echo -e alias teec=\"tee *.c\" >> ~/.bash_aliases
-echo -e alias teep=\"tee *.py\" >> ~/.bash_aliases
+echo -e alias teepy=\"tee *.py\" >> ~/.bash_aliases
 echo -e alias compile=\"gcc -Wall -pedantic -Werror -Wextra -std=gnu89\" >> ~/.bash_aliases
 echo -e alias montycomp=\"gcc -Wall -Werror -Wextra -pedantic *.c -o monty\" >> ~/.bash_aliases
 echo -e alias sscompile=\"gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh\" >> ~/.bash_aliases
