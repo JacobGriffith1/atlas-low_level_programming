@@ -8,6 +8,8 @@ setup/./check
 
 setup/./bettyinst
 
+setup/./mysqlinst
+
 setup/./bashaliasappend
 
 setup/./cleanroot

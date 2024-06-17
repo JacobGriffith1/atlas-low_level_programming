@@ -48,4 +48,4 @@ alias tre="cd ~/atlas-binary_trees"
 
 alias zro="cd ~/atlas-zero_day"
 
-alias sqlstart="sudo mysql -u root -p"
+alias sqlsb="mysql -u root -p"
