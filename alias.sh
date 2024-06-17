@@ -47,5 +47,3 @@ alias srt="cd ~/atlas-sorting_algorithms"
 alias tre="cd ~/atlas-binary_trees"
 
 alias zro="cd ~/atlas-zero_day"
-
-alias sqlsb="mysql -u root -p"
