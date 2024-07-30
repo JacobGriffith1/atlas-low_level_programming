@@ -8,7 +8,7 @@ setup/./check
 
 setup/./bettyinst
 
-setup/./mysqlinst
+# setup/./mysqlinst
 
 setup/./bashaliasappend
 
