@@ -8,11 +8,15 @@ echo -e alias t=\"touch\" >> ~/.bash_aliases
 echo -e alias x=\"chmod +x\" >> ~/.bash_aliases
 echo -e alias xc=\"chmod +x *.c\" >> ~/.bash_aliases
 echo -e alias xpy=\"chmod +x *.py\" >> ~/.bash_aliases
+echo -e alias xjs=\"chmod +x *.js\" >> ~/.bash_aliases
 echo -e alias b=\"betty\" >> ~/.bash_aliases
 echo -e alias sc=\"shellcheck\" >> ~/.bash_aliases
+echo -e alias semi=\"semistandard --fix\" >> ~/.bash_aliases
+echo -e alias d2u=\"dos2unix\" >> ~/.bash_aliases
 echo -e alias teeset=\"tee *-*\" >> ~/.bash_aliases
 echo -e alias teec=\"tee *.c\" >> ~/.bash_aliases
 echo -e alias teepy=\"tee *.py\" >> ~/.bash_aliases
+echo -e alias teejs=\"tee *.js\" >> ~/.bash_aliases
 echo -e alias compile=\"gcc -Wall -pedantic -Werror -Wextra -std=gnu89\" >> ~/.bash_aliases
 echo -e alias montycomp=\"gcc -Wall -Werror -Wextra -pedantic *.c -o monty\" >> ~/.bash_aliases
 echo -e alias sscompile=\"gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh\" >> ~/.bash_aliases
