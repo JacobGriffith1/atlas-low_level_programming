@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+cd ~
+
+apt install mysql-server
+echo -e "\n"
+
+service mysql start
+echo -e "\n"
