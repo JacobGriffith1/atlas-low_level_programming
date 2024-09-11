@@ -12,6 +12,7 @@ echo -e alias xjs=\"chmod +x *.js\" >> ~/.bash_aliases
 echo -e alias b=\"betty\" >> ~/.bash_aliases
 echo -e alias sc=\"shellcheck\" >> ~/.bash_aliases
 echo -e alias semi=\"semistandard --fix\" >> ~/.bash_aliases
+echo -e alias w3c=\"~/W3C-Validator/./w3c_validator.py\" >> ~/.bash_aliases
 echo -e alias d2u=\"dos2unix\" >> ~/.bash_aliases
 echo -e alias teeset=\"tee *-*\" >> ~/.bash_aliases
 echo -e alias teec=\"tee *.c\" >> ~/.bash_aliases
